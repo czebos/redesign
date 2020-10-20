@@ -1,1 +1,141 @@
 /* Put your style information here! */
+
+h1 {
+    text-align: center;
+    font-family: Arial;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.grey {
+    background-color: #B9DEED;
+    width: 100vw;
+    font-family:Arial;
+    padding-left: 3vw;
+    padding: 3vw;
+}
+
+#sketch {
+    background-color: white;
+    width: 100%;
+}
+
+#sketch-img {
+    display: block;
+    margin-left: 7vw;
+    width: 50%;
+}
+
+.title {
+    text-align: center;
+}
+
+
+.intro-para {
+    text-align: center;
+    font-family: Arial;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+.half {
+    width: 45%;
+    margin-left: 5%;
+    float: left;
+}
+
+li {
+    font-size: 18px;
+}
+
+.white {
+    background-color: white;
+    width: 100%;
+}
+
+.centered{
+    text-align: center;
+}
+
+#bullets {
+    margin-left: 30%;
+}
+
+.persona-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+}
+
+#story {
+    width: 100%;
+}
+
+#container {
+    display: flex;
+}
+
+.design-concerns {
+    font-size: 24px;
+}
+
+#first {
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 1vh;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-bottom: 1vh;
+}
+
+#left {
+    margin-right:3vw;
+}
+
+#right {
+    margin-left: 3vw;
+}
+
+.label-title {
+    font-size: 18px;
+    text-align: center;
+}
+
+#fullsize{
+    width: 80vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spaced {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}

@@ -2,13 +2,110 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Mike's Calzones Redesign</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+      <!-- TODO: put your HTML code here! -->
+      <div class="grey">
+          <h1>
+              Mike's Calzones Redesign
+          </h1>
+          <div class="intro-para">
+              This project is about redesigning a user interface that currently exists. I chose the restaurant and wesbite <a href="http://www.mikescalzones.com/"> MikesCalzones.com</a> to redesign. <br> First, I will discuss the problems with the interface. Then, I will go showing the lo-fi and hi-fi prototypes of the website. Finally, I will redesign the website.
+          </div>
+      </div>
+
+      <div class="white">
+          <h2 class="title">
+              Old Interface
+          </h2>
+          <div id="container">
+              <img src="old_mikes.png" id="sketch-img">
+              <div class="intro-para">
+                  <div class="design-concerns">
+                      Design Concerns
+                  </div>
+                  <hr>
+                  <ul>
+                      <li>Color contrast could be improved using the same signature colors</li>
+                      <li>Information grouping is confusing and is hard to quickly parse for the user</li>
+                      <li>Text on home page is seemingly unscannable</li>
+                      <li>Navigating to other parts of the other parts of the site isn't obvious and is subtle</li>
+                      <li>Hours aren't centered/aren't in line with the scan</li>
+                      <li>Hours are hard to parse for a specific day</li>
+                      <li>Content seems randomly placed on the page</li>
+                  </ul>
+
+                  <div class="design-concerns">
+                      Accesibility Issues
+                  </div>
+                  <hr>
+                  <div>
+                      Mike’s Calzones has 1 error, 9 contrast errors, 1 alert, 4 features and 3 structural elements. The contrast errors are very low contrast errors, and the alert is an empty heading. Screen reader reads the title on the home page and the hours, but not the description on the side or how to get to other pages.
+                  </div>
+
+              </div>
+          </div>
+      </div>
+
+      <div class="grey">
+          <h2 class="title">
+              Lo-Fi Prototyping
+          </h2>
+          <img src="lo1.png" id="first">
+          <div class="container center">
+              <img id="left" src="lo2.png">
+              <img id="left" src="lo3.png">
+          </div>
+
+          <div class="intro-para">
+              The Lo-Fi wireframes shows the Website View, the Phone View and the Tablet View respectively.
+          </div>
+          <ol class="center">
+              <li>Color Contrast is now much more attractive, while still using the same key colors</li>
+              <li>Menu is easily accesible and it is easy to find</li>
+              <li>Text is easy to scan now. The site is very easy to parse quickly</li>
+              <li>Hours are easily found, and the hours are cleanly displayed</li>
+              <li>Operating around the site is very simple, buttons are obviously links</li>
+          </ol>
+      </div>
+
+      <div class="white">
+          <h2 class="title">
+              Hi-Fi Prototyping
+          </h2>
+          <img src="hifi.png" id="fullsize">
+      </div>
+
+      <div class="grey">
+          <h2 class="title">
+              Visual Design Guide
+          </h2>
+
+          <img src="style.png" id="fullsize">
+
+          <div class="intro-para spaced">
+              The important colors for the redesigned website are the same that are used on the old website. Here are the following signature colors: Cobalt Blue: #1400A2, Orange: #D66824, Light Blue: #597198, White: #000000, and Grey: #A29797. All of the buttons should on hover turn Grey, but have original color Cobalt Blue with an Orange Border. Title should follow the same schematics, but it does not change color on hover. The delicious has font family Bodoni MT Black, Buttons have font family Arial, and the title has font family Century.
+          </div>
+      </div>
+
+      <div class="white">
+          <h2 class="title">
+              Redesigned Website
+          </h2>
+
+          <div class="intro-para">
+              Click to view website!
+          </div>
+
+          <a id="fullsize" onclick='window.open("https://enigmatic-savannah-72977.herokuapp.com/")' ;>
+              <img href="http://google.com" src="website.png" id="fullsize">
+          </a>
+
+      </div>
   </body>
 </html>
